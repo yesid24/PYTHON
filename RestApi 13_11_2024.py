@@ -3,7 +3,7 @@ from nba_api.stats.static import teams
 import matplotlib.pyplot as plt
 from nba_api.stats.endpoints import leaguegamefinder
 import requests
-
+#Yesid Cruz
 def one_dict(list_dict):
     keys = list_dict[0].keys()
     out_dict = {key: [] for key in keys}
